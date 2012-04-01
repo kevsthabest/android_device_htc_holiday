@@ -15,7 +15,7 @@
 # limitations under the License.
 
 MANUFACTURER=htc
-DEVICE=shooteru
+DEVICE=holiday
 
 mkdir -p ../../../vendor/$MANUFACTURER/$DEVICE
 
