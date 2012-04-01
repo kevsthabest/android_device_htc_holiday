@@ -3,7 +3,7 @@
 #
 
 debug.fb.rgb565=0
-debug.sf.hw=1
+debug.sf.hw=0
 debug.composition.type=c2d
 #ro.sf.compbypass.enable=1
 #debug.enabletr=true
@@ -40,7 +40,7 @@ ro.ril.enable.amr.wideband=0
 # Modify MMS APN retry timer from 5s to 2s.
 ro.gsm.2nd_data_retry_config=max_retries=3, 2000, 2000, 2000
 
-# shooteru RF team request
+# holiday RF team request
 ro.ril.enable.dtm=0
 ro.ril.gprsclass=12
 ro.ril.hsdpa.category=10
@@ -48,7 +48,7 @@ ro.ril.hsupa.category=6
 ro.ril.hsxpa=3
 
 # Default network type.
-# 0 => WCDMA preferred.
+# 0 => hspda preferred.
 ro.telephony.default_network=0
 
 # Modify MTU from 1500 to 1472 on 3G network
